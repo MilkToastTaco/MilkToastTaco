@@ -9,15 +9,10 @@ Welcome to Milk Toast Taco!
 I honestly don't know how you found this... But your obviously here if your reading this!
 So i might as well tell you about Milk Toast Taco!
 
-### Roadmap! (This is pretty basic, view the [FEATURE_IDEAS.md](FEATURE_IDEAS.md) file for a detailed ideas list)
+### Roadmap
+We dont really have a set Roadmap, but view ![FEATURE_IDEAS.md](FEATURE_IDEAS.md) to see low/high priority and long term ideas.
+If you have a idea you'd like to get added, you can submit a new [issue](https://github.com/MilkToastTaco/MilkToastTaco/issues/new), and label it with the `Feature Suggestion` label, and i might add it to the Feature List! :D
 
-As i said below in the story _(which you should 100% read by the way :D)_, i don't know if i have a definitive goal for MTT per say, but i do have a few ideas of what i'd like to accomplish eventually:
-
-- [ ] **3D Renderer** A full 3D renderer for Milk Toast Taco (I don't really know how possible this is with pure Python though, but Panda3D seems pretty good if it is possible!)
-
-- [ ] **Modding Framework** (+ Maybe a official MTT Mod repository) This is probably a pretty big thing, so this wont be for a while.
-
-And that's all i can think of now... But i will add some more to this eventually :D
 
 ### Install Milk Toast Taco
 
