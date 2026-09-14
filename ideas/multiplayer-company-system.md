@@ -18,6 +18,8 @@ Diffrent profit share values can be assigned to diffrent company members.
 
 Company Owners or Managers can also manage company member roles (Edit permisions, Fire, or Freeze Permissions)
 
+There is a fee of $500 to start a new company, and each player can have a max of only 3 companies at a time (Although they can be part of up to 10 companies at a time, including there own 3)
+
 ---
 
 _Back to [FEATURE_IDEAS.md](../FEATURE_IDEAS.md)_
