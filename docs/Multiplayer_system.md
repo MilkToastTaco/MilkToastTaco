@@ -24,3 +24,5 @@ So changing your player profile and you will still be banned, nothing will chang
 Bans are saved to a MTT servers `bans.xml`.
 
 Even in singleplayer MTT, it still uses the same **Account ID** and **Player ID** system. Just you cant get banned in singleplayer 🤣
+
+Likely **TCP** for client <-> server communication.
