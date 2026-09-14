@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 FEATURE_FILE = REPO_ROOT / "FEATURE_IDEAS.md"
 IDEAS_DIR = REPO_ROOT / "ideas"
 
-MAX_NAME_LEN = 20
+MAX_NAME_LEN = 30
 MAX_DESC_LEN = 50
 
 # tag_key -> (emoji, label shown in FEATURE_IDEAS.md index)
@@ -47,7 +47,9 @@ def validate_name(name: str) -> bool | str:
     if len(cleaned) > MAX_NAME_LEN:
         return f"Too long! ({len(cleaned)}/{MAX_NAME_LEN}) Keep it under {MAX_NAME_LEN} characters."
     if "**" in cleaned or "`" in cleaned or "\n" in cleaned:
-        return "Please avoid `**`, backticks, or newlines — they break the markdown list."
+        return (
+            "Please avoid `**`, backticks, or newlines — they break the markdown list."
+        )
     return True
 
 
@@ -104,7 +106,9 @@ def unique_idea_path(name: str) -> tuple[Path, str]:
 def prompt_extended_description() -> str | None:
     """Collect unlimited multiline input. Single '.' on its own line finishes."""
     console.print()
-    console.print("[bold]Extended description[/bold] [dim](unlimited, markdown OK)[/dim]")
+    console.print(
+        "[bold]Extended description[/bold] [dim](unlimited, markdown OK)[/dim]"
+    )
     console.print(
         "[dim]Write as many lines as you want — blank lines are fine.\n"
         "Finish with a single [bold].[/bold] on its own line, then Enter.[/dim]"
@@ -239,7 +243,9 @@ def main() -> int:
         console.print(Rule("[bold]Preview[/bold]"))
         console.print(Panel(line, title="FEATURE_IDEAS.md entry", border_style="green"))
         if extended and idea_path is not None:
-            preview_body = extended if len(extended) <= 800 else extended[:800] + "\n…(truncated)"
+            preview_body = (
+                extended if len(extended) <= 800 else extended[:800] + "\n…(truncated)"
+            )
             console.print(
                 Panel(preview_body, title=f"{details_rel} preview", border_style="cyan")
             )

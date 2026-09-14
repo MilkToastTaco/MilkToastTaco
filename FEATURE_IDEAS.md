@@ -22,3 +22,4 @@
 - [ ] **Fishing System** Players can do hobby fishing, or comercial fishing `🟥 ni` `🟩 lp`
 - [ ] **Job/Contract system** Job/Contract system for earning money. `🟥 ni` `🟩 lp`
 - [ ] **Animal System** Detailed Animal System `🟩 lp` [details](ideas/animal-system.md)
+- [ ] **Multiplayer Company System** A system for creating companies in multiplayer. `🟩 lp` [details](ideas/multiplayer-company-system.md)
