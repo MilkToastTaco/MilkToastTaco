@@ -12,3 +12,17 @@
 - [wgpu](https://wgpu.rs/) (Graphics and Rendering)
 - [gltf](https://github.com/gltf-rs/gltf) (3D asset loader)
 - [ash](https://github.com/ash-rs/ash) (Vulkan bindings for Rust)
+
+## Libraries for Komplex Specifically: (As of now)
+
+- [wgpu](https://wgpu.rs/) (Graphics and Rendering)
+- winit (windowing - Input)
+- Rapier (Physics)
+- egui (UI)
+- hecs (ECS)
+- Quinn (Networking)
+- quick-xml (XML loading)
+- Kira (Audio)
+- mlua (Lua)
+- tracing (Logs)
+-
